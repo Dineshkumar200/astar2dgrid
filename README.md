@@ -20,7 +20,9 @@ Define the function for the distance function for the heuristic function
 Pass all the values to the GirdProblem, and print the solution path.
 
 ## Draw the 2D 
-![Screenshot 2022-05-17 203600](https://user-images.githubusercontent.com/75235789/168848564-d25592e1-f050-450b-9551-fea6afb2f823.jpg)
+![Screenshot 2022-05-17 203600](https://user-images.githubusercontent.com/75235789/168850497-aa6cede4-9778-40c5-9b41-7c050e40973b.jpg)
+
+
 
 
 ## PROGRAM
