@@ -207,8 +207,8 @@ path_states(s1)
 
 ## OUTPUT:
 ![Screenshot 2022-05-17 203600](https://user-images.githubusercontent.com/75235789/168845038-da44a22b-4059-43d6-aea6-b018c80ed20f.jpg)
-![output](https://user-images.githubusercontent.com/75235789/168848480-0d9d375e-4203-4cd2-a9c5-58e7135d1aa7.jpg)
 
+![output](https://user-images.githubusercontent.com/75235789/168852479-134352ba-c923-48a0-a774-93f3aa87cfb9.jpg)
 
 
 The algorithm is able to find the solution path for the given problem. But the solution path, might not be the shortest path to reach the goal state.
