@@ -1,4 +1,8 @@
-# A* Path Finding Algorithm for 2D Grid World
+## EX NO : 04
+## DATE : 17-05-2022
+# <p align="center"> A* Path Finding Algorithm for 2D Grid World</p>
+
+ 
 ## AIM
 
 To develop a code to find the route from the source to the destination point using A* algorithm for 2D grid world.
@@ -19,7 +23,7 @@ Define the function for the distance function for the heuristic function
 ### STEP 4:
 Pass all the values to the GirdProblem, and print the solution path.
 
-## <br/><br/><br/><br/><br/><br/><br/><br/>Draw the 2D 
+## <br/><br/><br/><br/><br/>Draw the 2D 
 
 
 ![grid](https://user-images.githubusercontent.com/75235789/168850635-d3e00af8-3f00-41ff-ab6f-7f2c108b53cc.jpg)
@@ -147,8 +151,6 @@ class PriorityQueue:
 def g(n): 
     return n.path_cost
     
-    
-    
 class GridProblem(Problem):
     """Finding a path on a 2D grid with obstacles. Obstacles are (x, y) cells."""
 
@@ -178,14 +180,11 @@ class GridProblem(Problem):
         return {(x+dx,y+dy) for(dx,dy) in self.directions}-self.obstacles
         # Write your code here
         return {}
-        
-        
+          
 def straight_line_distance(A, B):
     "Straight-line distance between two points."
     # Write your code here
     return sum(abs(a-b)**2 for(a,b) in zip(A,B))**0.5
-    
-
 
 def g(n): 
     return n.path_cost
@@ -203,7 +202,6 @@ s1 = astar_search(grid1)
 
 path_states(s1)
 ```
-
 
 ## OUTPUT:
 ![Screenshot 2022-05-17 203600](https://user-images.githubusercontent.com/75235789/168845038-da44a22b-4059-43d6-aea6-b018c80ed20f.jpg)
